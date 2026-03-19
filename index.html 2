@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EB1 & EB2 NIW Visa Strategy | Research Profile Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .serif { font-family: 'Playfair Display', serif; }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #0f172a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .editable:focus {
+            outline: 2px solid #3b82f6;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 4px;
+            padding: 2px 6px;
+            transition: all 0.2s;
+        }
+        
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .evidence-card {
+            transition: all 0.3s ease;
+        }
+        
+        .evidence-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .tab-active {
+            border-bottom: 3px solid #1e40af;
+            color: #1e40af;
+        }
+        
+        .success-story {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .visa-badge {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 glass-panel border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center text-white font-bold text-xl">V</div>
+                    <div class="text-2xl font-bold text-slate-900 editable" contenteditable="true" spellcheck="false">
+                        VisaStrategist<span class="text-blue-600">.pro</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#services" class="text-slate-600 hover:text-blue-900 font-medium transition-colors">Services</a>
+                    <a href="#evidence" class="text-slate-600 hover:text-blue-900 font-medium transition-colors">Evidence Portfolio</a>
+                    <a href="#success" class="text-slate-600 hover:text-blue-900 font-medium transition-colors">Success Stories</a>
+                    <a href="#about" class="text-slate-600 hover:text-blue-900 font-medium transition-colors">About</a>
+                    <button onclick="toggleEditMode()" class="px-4 py-2 text-sm font-medium text-blue-900 border-2 border-blue-900 rounded-lg hover:bg-blue-900 hover:text-white transition-all">
+                        Edit Mode: <span id="editStatus">ON</span>
+                    </button>
+                    <button onclick="openBookingModal()" class="px-6 py-3 bg-blue-900 text-white rounded-lg font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl">
+                        Book Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-white">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold editable" contenteditable="true">
+                    <span class="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
+                    EB1A & EB2 NIW Specialization
+                </div>
+                <h1 class="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight editable" contenteditable="true" spellcheck="false">
+                    Strategic Profile Development for <span class="gradient-text">EB1 & EB2 NIW</span> Success
+                </h1>
+                <p class="text-xl text-slate-600 leading-relaxed editable" contenteditable="true" spellcheck="false">
+                    We help researchers, scientists, engineers, and professionals build globally competitive academic and professional profiles required for U.S. immigration success. Transform your research impact into visa petition strength.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="openBookingModal()" class="px-8 py-4 bg-blue-900 text-white rounded-xl font-semibold hover:bg-blue-800 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+                        Book Consultation
+                    </button>
+                    <button onclick="scrollToSection('evaluation')" class="px-8 py-4 bg-white text-blue-900 border-2 border-blue-900 rounded-xl font-semibold hover:bg-blue-50 transition-all">
+                        Start Profile Evaluation
+                    </button>
+                    <button onclick="scrollToSection('evidence')" class="px-8 py-4 bg-slate-100 text-slate-700 rounded-xl font-semibold hover:bg-slate-200 transition-all">
+                        View Evidence Templates
+                    </button>
+                </div>
+                <div class="flex items-center gap-6 pt-4">
+                    <div class="flex -space-x-3">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop" class="w-12 h-12 rounded-full border-2 border-white object-cover" alt="Client">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop" class="w-12 h-12 rounded-full border-2 border-white object-cover" alt="Client">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" class="w-12 h-12 rounded-full border-2 border-white object-cover" alt="Client">
+                    </div>
+                    <div class="text-sm text-slate-600 editable" contenteditable="true">
+                        <strong class="text-slate-900">500+</strong> Successful Petitions
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 rounded-3xl blur-3xl opacity-20"></div>
+                <div class="relative bg-white rounded-3xl shadow-2xl p-8 border border-slate-100">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop" class="w-full h-64 object-cover rounded-2xl mb-6" alt="Strategy Session">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center p-4 bg-slate-50 rounded-xl">
+                            <div>
+                                <div class="text-sm text-slate-500 editable" contenteditable="true">Approval Rate</div>
+                                <div class="text-2xl font-bold text-blue-900 editable" contenteditable="true">97.8%</div>
+                            </div>
+                            <div class="w-16 h-16 relative">
+                                <svg class="w-full h-full transform -rotate-90">
+                                    <circle cx="32" cy="32" r="28" stroke="#e2e8f0" stroke-width="6" fill="none"/>
+                                    <circle cx="32" cy="32" r="28" stroke="#1e40af" stroke-width="6" fill="none" stroke-dasharray="175.9" stroke-dashoffset="4" stroke-linecap="round"/>
+                                </svg>
+                                <span class="absolute inset-0 flex items-center justify-center text-xs font-bold text-blue-900">98%</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="p-4 bg-blue-50 rounded-xl text-center">
+                                <div class="text-3xl font-bold text-blue-900 editable" contenteditable="true">15+</div>
+                                <div class="text-xs text-slate-600 editable" contenteditable="true">Years Experience</div>
+                            </div>
+                            <div class="p-4 bg-purple-50 rounded-xl text-center">
+                                <div class="text-3xl font-bold text-purple-900 editable" contenteditable="true">50+</div>
+                                <div class="text-xs text-slate-600 editable" contenteditable="true">Countries Served</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Clients -->
+    <section class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Who We Serve</h2>
+                <p class="text-slate-600 editable" contenteditable="true">Specialized support for high-achieving professionals</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('researchers')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">🔬</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Researchers</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('phd')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-purple-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">🎓</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">PhD Holders</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('engineers')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-green-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">⚙️</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Engineers</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('scientists')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-yellow-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">🧪</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Scientists</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('tech')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-red-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">💻</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Tech Professionals</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('academics')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-indigo-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">📚</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Academics</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('medical')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-pink-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">🏥</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">Medical Researchers</div>
+                </div>
+                <div class="p-4 text-center group cursor-pointer hover:bg-slate-50 rounded-xl transition-all" onclick="showClientDetail('ai')">
+                    <div class="w-16 h-16 mx-auto mb-3 bg-cyan-100 rounded-2xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">🤖</div>
+                    <div class="text-sm font-semibold text-slate-700 editable" contenteditable="true">AI Researchers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services -->
+    <section id="services" class="py-20 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Comprehensive Visa Strategy Services</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto editable" contenteditable="true">End-to-end profile development and petition support for EB1A and EB2 NIW success</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Profile Optimization -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center text-3xl mb-6">📊</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Profile Optimization</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-blue-600 mt-1">✓</span>
+                            <span>Academic Profile Optimization</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-blue-600 mt-1">✓</span>
+                            <span>Research Visibility Enhancement</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-blue-600 mt-1">✓</span>
+                            <span>Citation Growth Strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-blue-600 mt-1">✓</span>
+                            <span>Global Research Identity Development</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-blue-600 mt-1">✓</span>
+                            <span>Online Academic Branding</span>
+                        </li>
+                    </ul>
+                    <button onclick="openServiceDetail('profile')" class="mt-6 w-full py-3 border-2 border-blue-900 text-blue-900 rounded-lg font-semibold hover:bg-blue-900 hover:text-white transition-all">
+                        Learn More
+                    </button>
+                </div>
+
+                <!-- Research Support -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center text-3xl mb-6">📝</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Research Support</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-purple-600 mt-1">✓</span>
+                            <span>Research Article Writing Assistance</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-purple-600 mt-1">✓</span>
+                            <span>Journal Selection Guidance</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-purple-600 mt-1">✓</span>
+                            <span>Manuscript Editing & Formatting</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-purple-600 mt-1">✓</span>
+                            <span>Research Collaboration Strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-purple-600 mt-1">✓</span>
+                            <span>Grant Proposal Guidance</span>
+                        </li>
+                    </ul>
+                    <button onclick="openServiceDetail('research')" class="mt-6 w-full py-3 border-2 border-purple-900 text-purple-900 rounded-lg font-semibold hover:bg-purple-900 hover:text-white transition-all">
+                        Learn More
+                    </button>
+                </div>
+
+                <!-- Citation & Visibility -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover border border-slate-100">
+                    <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center text-3xl mb-6">🌐</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Citation & Visibility</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-green-600 mt-1">✓</span>
+                            <span>Google Scholar Optimization</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-green-600 mt-1">✓</span>
+                            <span>Citation Growth Strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-green-600 mt-1">✓</span>
+                            <span>Academic Networking Strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-green-600 mt-1">✓</span>
+                            <span>Research Distribution Strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3 editable" contenteditable="true">
+                            <span class="text-green-600 mt-1">✓</span>
+                            <span>h-index Enhancement</span>
+                        </li>
+                    </ul>
+                    <button onclick="openServiceDetail('citation')" class="mt-6 w-full py-3 border-2 border-green-700 text-green-700 rounded-lg font-semibold hover:bg-green-700 hover:text-white transition-all">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <!-- Additional Services Grid -->
+            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all cursor-pointer" onclick="toggleServiceDetail(this)">
+                    <div class="text-3xl mb-3">🎓</div>
+                    <h4 class="font-bold text-slate-900 mb-2 editable" contenteditable="true">Academic Platforms</h4>
+                    <p class="text-sm text-slate-600 editable" contenteditable="true">Google Scholar, ORCID, ResearchGate, Scopus setup & optimization</p>
+                    <div class="hidden mt-4 pt-4 border-t border-slate-100 text-sm text-slate-600 expandable">
+                        <ul class="space-y-2">
+                            <li>• Profile creation and verification</li>
+                            <li>• Research portfolio organization</li>
+                            <li>• Visibility optimization</li>
+                            <li>• Cross-platform synchronization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all cursor-pointer" onclick="toggleServiceDetail(this)">
+                    <div class="text-3xl mb-3">📋</div>
+                    <h4 class="font-bold text-slate-900 mb-2 editable" contenteditable="true">Petition Support</h4>
+                    <p class="text-sm text-slate-600 editable" contenteditable="true">Documentation, recommendation letters, evidence organization</p>
+                    <div class="hidden mt-4 pt-4 border-t border-slate-100 text-sm text-slate-600 expandable">
+                        <ul class="space-y-2">
+                            <li>• Recommendation letter drafting</li>
+                            <li>• Petition letter writing</li>
+                            <li>• Evidence indexing</li>
+                            <li>• Achievement documentation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all cursor-pointer" onclick="toggleServiceDetail(this)">
+                    <div class="text-3xl mb-3">🏆</div>
+                    <h4 class="font-bold text-slate-900 mb-2 editable" contenteditable="true">Professional Memberships</h4>
+                    <p class="text-sm text-slate-600 editable" contenteditable="true">IEEE, BCS, IET and other prestigious organization applications</p>
+                    <div class="hidden mt-4 pt-4 border-t border-slate-100 text-sm text-slate-600 expandable">
+                        <ul class="space-y-2">
+                            <li>• IEEE membership guidance</li>
+                            <li>• British Computer Society</li>
+                            <li>• IET membership support</li>
+                            <li>• Custom organization research</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all cursor-pointer" onclick="toggleServiceDetail(this)">
+                    <div class="text-3xl mb-3">🎯</div>
+                    <h4 class="font-bold text-slate-900 mb-2 editable" contenteditable="true">Strategic Consulting</h4>
+                    <p class="text-sm text-slate-600 editable" contenteditable="true">EB1A/NIW strategy, gap analysis, roadmap development</p>
+                    <div class="hidden mt-4 pt-4 border-t border-slate-100 text-sm text-slate-600 expandable">
+                        <ul class="space-y-2">
+                            <li>• Case strength evaluation</li>
+                            <li>• Weakness mitigation</li>
+                            <li>• Timeline planning</li>
+                            <li>• RFE preparation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evidence Portfolio Section -->
+    <section id="evidence" class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Evidence Portfolio Templates</h2>
+                <p class="text-xl text-slate-600 editable" contenteditable="true">Click any card to view sample evidence formats for your petition</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Citation Evidence -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('citations')">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-blue-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Citation Report">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-5xl font-bold mb-2 editable" contenteditable="true">1,247</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">Total Citations</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Report
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Citation Evidence</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">Google Scholar profiles, citation graphs, h-index documentation, and comparative analysis</p>
+                        <div class="flex items-center text-blue-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Evidence -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('publications')">
+                    <div class="h-48 bg-gradient-to-br from-purple-500 to-purple-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Publications">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-5xl font-bold mb-2 editable" contenteditable="true">28</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">Publications</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Portfolio
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Publication Portfolio</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">Journal impact factors, peer review evidence, editorial board memberships</p>
+                        <div class="flex items-center text-purple-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommendation Letters -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('recommendations')">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-green-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Recommendation Letters">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-4xl font-bold mb-2 editable" contenteditable="true">Expert</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">Endorsements</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Letters
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Recommendation Letters</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">Templates and samples from distinguished experts in your field</p>
+                        <div class="flex items-center text-green-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membership Cards -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('memberships')">
+                    <div class="h-48 bg-gradient-to-br from-amber-500 to-amber-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1560439514-4e9645039924?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Memberships">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-4xl font-bold mb-2 editable" contenteditable="true">IEEE</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">Senior Member</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Card
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Professional Memberships</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">IEEE, ACM, BCS, IET membership certificates and documentation</p>
+                        <div class="flex items-center text-amber-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards & Recognition -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('awards')">
+                    <div class="h-48 bg-gradient-to-br from-red-500 to-red-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Awards">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-5xl mb-2">🏆</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">Excellence Award</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Certificate
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Awards & Recognition</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">Best paper awards, research excellence certificates, industry recognition</p>
+                        <div class="flex items-center text-red-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Media Coverage -->
+                <div class="evidence-card bg-slate-50 rounded-2xl overflow-hidden cursor-pointer group" onclick="openEvidenceModal('media')">
+                    <div class="h-48 bg-gradient-to-br from-cyan-500 to-cyan-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&h=400&fit=crop" class="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Media">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <div class="text-4xl font-bold mb-2 editable" contenteditable="true">Featured</div>
+                                <div class="text-sm opacity-90 editable" contenteditable="true">In Media</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs text-white font-semibold editable" contenteditable="true">
+                            Sample Coverage
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 editable" contenteditable="true">Media Coverage</h3>
+                        <p class="text-slate-600 text-sm mb-4 editable" contenteditable="true">News articles, interviews, expert commentary documentation</p>
+                        <div class="flex items-center text-cyan-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                            View Sample <span class="ml-1">→</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success" class="py-20 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4 editable" contenteditable="true">Client Success Stories</h2>
+                <p class="text-xl text-slate-600 editable" contenteditable="true">Real results from strategic profile development</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Success Story 1 -->
+                <div class="success-story rounded-2xl p-8 border border-blue-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -mr-16 -mt-16 opacity-50"></div>
+                    <div class="relative">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop" class="w-16 h-16 rounded-full object-cover border-4 border-white shadow-lg" alt="Client">
+                            <div>
+                                <h4 class="font-bold text-slate-900 editable" contenteditable="true">Dr. Sarah Chen</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">AI Researcher → EB1A Approved</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 mb-6">
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg shadow-sm">
+                                <span class="text-sm text-slate-600">Before</span>
+                                <span class="font-bold text-slate-400 editable" contenteditable="true">45 citations</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg shadow-sm border-2 border-blue-200">
+                                <span class="text-sm text-slate-600">After 8 months</span>
+                                <span class="font-bold text-blue-700 editable" contenteditable="true">312 citations</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-4 editable" contenteditable="true">"The strategic approach to building my research profile transformed my visibility. EB1A approved in 4 months without RFE."</p>
+                        <div class="flex items-center gap-2 text-green-600 text-sm font-semibold">
+                            <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                            Approved 2024
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Story 2 -->
+                <div class="success-story rounded-2xl p-8 border border-purple-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-200 rounded-full -mr-16 -mt-16 opacity-50"></div>
+                    <div class="relative">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" class="w-16 h-16 rounded-full object-cover border-4 border-white shadow-lg" alt="Client">
+                            <div>
+                                <h4 class="font-bold text-slate-900 editable" contenteditable="true">Dr. Michael Rodriguez</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">Biomedical Engineer → EB2 NIW</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 mb-6">
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg shadow-sm">
+                                <span class="text-sm text-slate-600">Publications</span>
+                                <span class="font-bold text-purple-700 editable" contenteditable="true">12 → 28</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 bg-purple-50 rounded-lg shadow-sm border-2 border-purple-200">
+                                <span class="text-sm text-slate-600">Journal Impact</span>
+                                <span class="font-bold text-purple-700 editable" contenteditable="true">Q1: 85%</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-4 editable" contenteditable="true">"From journal selection to citation strategy, every step was calculated. National interest waiver granted smoothly."</p>
+                        <div class="flex items-center gap-2 text-green-600 text-sm font-semibold">
+                            <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                            Approved 2024
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Story 3 -->
+                <div class="success-story rounded-2xl p-8 border border-green-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-green-200 rounded-full -mr-16 -mt-16 opacity-50"></div>
+                    <div class="relative">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" class="w-16 h-16 rounded-full object-cover border-4 border-white shadow-lg" alt="Client">
+                            <div>
+                                <h4 class="font-bold text-slate-900 editable" contenteditable="true">Dr. Emily Zhang</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">Data Scientist → EB1A</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 mb-6">
+                            <div class="flex justify-between items-center p-3 bg-white rounded-lg shadow-sm">
+                                <span class="text-sm text-slate-600">h-index</span>
+                                <span class="font-bold text-green-700 editable" contenteditable="true">8 → 24</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 bg-green-50 rounded-lg shadow-sm border-2 border-green-200">
+                                <span class="text-sm text-slate-600">Keynote Invites</span>
+                                <span class="font-bold text-green-700 editable" contenteditable="true">3 international</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-4 editable" contenteditable="true">"Positioned as an industry leader through strategic speaking engagements and publications. Extraordinary ability proven."</p>
+                        <div class="flex items-center gap-2 text-green-600 text-sm font-semibold">
+                            <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                            Approved 2023
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Metrics Dashboard -->
+            <div class="mt-16 bg-white rounded-3xl shadow-xl p-8 border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-8 text-center editable" contenteditable="true">Our Impact Metrics</h3>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2 editable" contenteditable="true">97.8%</div>
+                        <div class="text-sm text-slate-600 editable" contenteditable="true">Approval Rate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-purple-600 mb-2 editable" contenteditable="true">500+</div>
+                        <div class="text-sm text-slate-600 editable" contenteditable="true">Successful Cases</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-green-600 mb-2 editable" contenteditable="true">12</div>
+                        <div class="text-sm text-slate-600 editable" contenteditable="true">Avg. Citations Growth (x)</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-amber-600 mb-2 editable" contenteditable="true">4.2</div>
+                        <div class="text-sm text-slate-600 editable" contenteditable="true">Months Avg. Processing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl rotate-3 opacity-20"></div>
+                    <div class="relative bg-slate-100 rounded-3xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop" class="w-full h-full object-cover" alt="Consultant">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-8">
+                            <div class="text-white">
+                                <h4 class="text-2xl font-bold mb-2 editable" contenteditable="true">Expert Immigration Strategist</h4>
+                                <p class="text-white/80 editable" contenteditable="true">15+ years in academic research and visa petition strategy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h2 class="text-4xl font-bold text-slate-900 editable" contenteditable="true">Strategic Advisor for High-Skilled Immigration</h2>
+                    <p class="text-lg text-slate-600 leading-relaxed editable" contenteditable="true">
+                        We specialize in transforming research careers into compelling visa petitions. Our methodology combines deep understanding of USCIS criteria with strategic academic profile development.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-2xl">🎯</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 mb-1 editable" contenteditable="true">Strategic Approach</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">Every recommendation is backed by USCIS trends and immigration law expertise</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-2xl">📈</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 mb-1 editable" contenteditable="true">Measurable Results</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">Track record of significant citation growth and approval success</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-2xl">🌍</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 mb-1 editable" contenteditable="true">Global Reach</h4>
+                                <p class="text-sm text-slate-600 editable" contenteditable="true">Serving clients from 50+ countries across all research disciplines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking/Consultation Section -->
+    <section id="evaluation" class="py-20 px-6 bg-blue-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6 editable" contenteditable="true">Begin Your Visa Success Journey</h2>
+            <p class="text-xl text-blue-100 mb-12 editable" contenteditable="true">Book a comprehensive profile evaluation and receive a personalized roadmap to EB1 or EB2 NIW success</p>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
+                    <div class="text-3xl mb-4">📋</div>
+                    <h3 class="font-bold text-lg mb-2 editable" contenteditable="true">Profile Evaluation</h3>
+                    <p class="text-sm text-blue-100 editable" contenteditable="true">Complete assessment of your current credentials and visa eligibility</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
+                    <div class="text-3xl mb-4">🗺️</div>
+                    <h3 class="font-bold text-lg mb-2 editable" contenteditable="true">Strategic Roadmap</h3>
+                    <p class="text-sm text-blue-100 editable" contenteditable="true">Customized 6-12 month plan to strengthen your petition</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
+                    <div class="text-3xl mb-4">🤝</div>
+                    <h3 class="font-bold text-lg mb-2 editable" contenteditable="true">Ongoing Support</h3>
+                    <p class="text-sm text-blue-100 editable" contenteditable="true">Continuous guidance through petition preparation and filing</p>
+                </div>
+            </div>
+
+            <button onclick="openBookingModal()" class="px-12 py-5 bg-white text-blue-900 rounded-full font-bold text-lg hover:bg-blue-50 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1">
+                Schedule Your Consultation Now
+            </button>
+            
+            <p class="mt-6 text-sm text-blue-200 editable" contenteditable="true">Free initial assessment • Confidential • No obligation</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
+            <div>
+                <div class="text-2xl font-bold text-white mb-4 editable" contenteditable="true">VisaStrategist.pro</div>
+                <p class="text-sm text-slate-400 editable" contenteditable="true">Strategic profile development for EB1 and EB2 NIW visa success. Trusted by researchers worldwide.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4 editable" contenteditable="true">Services</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">EB1A Strategy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">EB2 NIW Support</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">Profile Optimization</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">Citation Growth</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4 editable" contenteditable="true">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">Success Stories</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">Evidence Templates</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">Blog & Insights</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors editable" contenteditable="true">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4 editable" contenteditable="true">Contact</h4>
+                <ul class="space-y-2 text-sm">
+                    <li class="editable" contenteditable="true">consultant@visastrategist.pro</li>
+                    <li class="editable" contenteditable="true">+1 (555) 123-4567</li>
+                    <li class="editable" contenteditable="true">Available Worldwide</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
+            <p class="editable" contenteditable="true">© 2024 VisaStrategist.pro. All rights reserved. Not legal advice. Consult an immigration attorney for legal matters.</p>
+        </div>
+    </footer>
+
+    <!-- Evidence Modal -->
+    <div id="evidenceModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden items-center justify-center p-6">
+        <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+            <div class="sticky top-0 bg-white border-b border-slate-200 p-6 flex justify-between items-center">
+                <h3 id="modalTitle" class="text-2xl font-bold text-slate-900 editable" contenteditable="true">Evidence Sample</h3>
+                <button onclick="closeEvidenceModal()" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-2xl">&times;</button>
+            </div>
+            <div id="modalContent" class="p-6">
+                <!-- Dynamic content loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden items-center justify-center p-6">
+        <div class="bg-white rounded-2xl max-w-2xl w-full shadow-2xl">
+            <div class="p-6 border-b border-slate-200 flex justify-between items-center">
+                <h3 class="text-2xl font-bold text-slate-900 editable" contenteditable="true">Book Your Consultation</h3>
+                <button onclick="closeBookingModal()" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-2xl">&times;</button>
+            </div>
+            <div class="p-6 space-y-6">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2 editable" contenteditable="true">Full Name</label>
+                        <input type="text" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2 editable" contenteditable="true">Email</label>
+                        <input type="email" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none" placeholder="you@example.com">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-2 editable" contenteditable="true">Current Status</label>
+                    <select class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option>Researcher/Academic</option>
+                        <option>PhD Candidate</option>
+                        <option>Industry Professional</option>
+                        <option>Postdoctoral Fellow</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-2 editable" contenteditable="true">Visa Category Interest</label>
+                    <div class="flex gap-4">
+                        <label class="flex items-center gap-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 rounded">
+                            <span class="editable" contenteditable="true">EB1A</span>
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 rounded">
+                            <span class="editable" contenteditable="true">EB2 NIW</span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-2 editable" contenteditable="true">Message</label>
+                    <textarea class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none h-32" placeholder="Tell us about your research and goals..."></textarea>
+                </div>
+                <button onclick="submitBooking()" class="w-full py-4 bg-blue-900 text-white rounded-lg font-bold text-lg hover:bg-blue-800 transition-all">
+                    Request Consultation
+                </button>
+                <p class="text-xs text-slate-500 text-center editable" contenteditable="true">We respect your privacy. All information is confidential.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Edit Mode Toggle
+        let editMode = true;
+        function toggleEditMode() {
+            editMode = !editMode;
+            const editables = document.querySelectorAll('[contenteditable]');
+            editables.forEach(el => {
+                el.setAttribute('contenteditable', editMode);
+                if (editMode) {
+                    el.classList.add('editable');
+                } else {
+                    el.classList.remove('editable');
+                }
+            });
+            document.getElementById('editStatus').textContent = editMode ? 'ON' : 'OFF';
+            showToast(editMode ? 'Edit mode enabled - click any text to edit' : 'Edit mode disabled');
+        }
+
+        // Smooth Scroll
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Service Detail Toggle
+        function toggleServiceDetail(element) {
+            const expandable = element.querySelector('.expandable');
+            expandable.classList.toggle('hidden');
+        }
+
+        // Evidence Modal
+        function openEvidenceModal(type) {
+            const modal = document.getElementById('evidenceModal');
+            const title = document.getElementById('modalTitle');
+            const content = document.getElementById('modalContent');
+            
+            const templates = {
+                citations: {
+                    title: 'Citation Evidence Report Sample',
+                    content: `
+                        <div class="space-y-6">
+                            <div class="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
+                                <h4 class="font-bold text-blue-900 mb-4 editable" contenteditable="true">Google Scholar Profile Overview</h4>
+                                <div class="grid grid-cols-3 gap-4 mb-6">
+                                    <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                                        <div class="text-3xl font-bold text-blue-600 editable" contenteditable="true">1,247</div>
+                                        <div class="text-xs text-slate-600 editable" contenteditable="true">All Time Citations</div>
+                                    </div>
+                                    <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                                        <div class="text-3xl font-bold text-blue-600 editable" contenteditable="true">18</div>
+                                        <div class="text-xs text-slate-600 editable" contenteditable="true">h-index</div>
+                                    </div>
+                                    <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                                        <div class="text-3xl font-bold text-blue-600 editable" contenteditable="true">24</div>
+                                        <div class="text-xs text-slate-600 editable" contenteditable="true">i10-index</div>
+                                    </div>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" class="w-full h-64 object-cover rounded-lg mb-4" alt="Citation Graph">
+                                <p class="text-sm text-slate-700 editable" contenteditable="true">Citation trend showing consistent growth over 5 years with significant acceleration in Q2 2023 following strategic publication placement.</p>
+                            </div>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-slate-50 p-6 rounded-xl">
+                                    <h4 class="font-bold text-slate-900 mb-3 editable" contenteditable="true">Top Citing Institutions</h4>
+                                    <ul class="space-y-2 text-sm">
+                                        <li class="flex justify-between editable" contenteditable="true"><span>MIT</span> <span class="font-semibold">45 cites</span></li>
+                                        <li class="flex justify-between editable" contenteditable="true"><span>Stanford University</span> <span class="font-semibold">38 cites</span></li>
+                                        <li class="flex justify-between editable" contenteditable="true"><span>UC Berkeley</span> <span class="font-semibold">32 cites</span></li>
+                                        <li class="flex justify-between editable" contenteditable="true"><span>ETH Zurich</span> <span class="font-semibold">28 cites</span></li>
+                                    </ul>
+                                </div>
+                                <div class="bg-slate-50 p-6 rounded-xl">
+                                    <h4 class="font-bold text-slate-900 mb-3 editable" contenteditable="true">Citation Velocity</h4>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <div class="flex justify-between text-sm mb-1 editable" contenteditable="true"><span>2024 YTD</span><span>+156</span></div>
+                                            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div></div>
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between text-sm mb-1 editable" contenteditable="true"><span>2023</span><span>+412</span></div>
+                                            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full" style="width: 100%"></div></div>
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between text-sm mb-1 editable" contenteditable="true"><span>2022</span><span>+298</span></div>
+                                            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full" style="width: 72%"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                publications: {
+                    title: 'Publication Portfolio Sample',
+                    content: `
+                        <div class="space-y-6">
+                            <div class="bg-purple-50 p-6 rounded-xl border-2 border-purple-200">
+                                <h4 class="font-bold text-purple-900 mb-4 editable" contenteditable="true">Selected High-Impact Publications</h4>
+                                <div class="space-y-4">
+                                    <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-purple-500">
+                                        <div class="font-semibold text-slate-900 mb-2 editable" contenteditable="true">Nature Machine Intelligence</div>
+                                        <p class="text-sm text-slate-600 mb-2 editable" contenteditable="true">"Deep Learning Approaches to Climate Prediction" (2023)</p>
+                                        <div class="flex gap-4 text-xs text-slate-500">
+                                            <span class="editable" contenteditable="true">Impact Factor: 25.3</span>
+                                            <span class="editable" contenteditable="true">Citations: 89</span>
+                                            <span class="editable" contenteditable="true">Q1 Ranking</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-purple-500">
+                                        <div class="font-semibold text-slate-900 mb-2 editable" contenteditable="true">IEEE Transactions on Pattern Analysis</div>
+                                        <p class="text-sm text-slate-600 mb-2 editable" contenteditable="true">"Computer Vision in Medical Diagnostics" (2022)</p>
+                                        <div class="flex gap-4 text-xs text-slate-500">
+                                            <span class="editable" contenteditable="true">Impact Factor: 24.3</span>
+                                            <span class="editable" contenteditable="true">Citations: 124</span>
+                                            <span class="editable" contenteditable="true">Q1 Ranking</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid md:grid-cols-3 gap-4">
+                                <div class="bg-slate-50 p-4 rounded-xl text-center">
+                                    <div class="text-3xl font-bold text-purple-600 editable" contenteditable="true">85%</div>
+                                    <div class="text-sm text-slate-600 editable" contenteditable="true">Q1 Journals</div>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl text-center">
+                                    <div class="text-3xl font-bold text-purple-600 editable" contenteditable="true">12</div>
+                                    <div class="text-sm text-slate-600 editable" contenteditable="true">First Author</div>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl text-center">
+                                    <div class="text-3xl font-bold text-purple-600 editable" contenteditable="true">8.4</div>
+                                    <div class="text-sm text-slate-600 editable" contenteditable="true">Avg. Impact Factor</div>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                recommendations: {
+                    title: 'Expert Recommendation Letter Sample',
+                    content: `
+                        <div class="bg-green-50 p-8 rounded-xl border-2 border-green-200 font-serif">
+                            <div class="text-center mb-8">
+                                <div class="text-sm text-slate-500 mb-2 editable" contenteditable="true">[Institution Letterhead]</div>
+                                <h3 class="text-xl font-bold text-slate-900 editable" contenteditable="true">Letter of Recommendation</h3>
+                            </div>
+                            <div class="space-y-4 text-slate-800 text-sm leading-relaxed">
+                                <p class="editable" contenteditable="true">To Whom It May Concern,</p>
+                                <p class="editable" contenteditable="true">I am writing to provide my strongest recommendation for [Client Name] regarding their petition for EB1A classification as an Alien of Extraordinary Ability. I am a [Title] at [Institution], and I have known [Client] professionally for [X] years.</p>
+                                <p class="editable" contenteditable="true">[Client] has made original contributions of major significance to the field of [Field]. Their work on [Specific Research] has been cited [X] times by researchers including [Notable Institutions], demonstrating the substantial and lasting impact of their research.</p>
+                                <p class="editable" contenteditable="true">Their findings have been adopted by [Industry/Academic Applications], resulting in [Specific Impact]. This places them in the top [X%] of researchers worldwide in their field.</p>
+                                <div class="mt-8 pt-8 border-t border-green-200">
+                                    <p class="editable" contenteditable="true">Sincerely,</p>
+                                    <p class="font-bold mt-4 editable" contenteditable="true">[Recommender Name, PhD]</p>
+                                    <p class="text-slate-600 editable" contenteditable="true">[Title, Institution]</p>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                memberships: {
+                    title: 'Professional Membership Documentation',
+                    content: `
+                        <div class="space-y-6">
+                            <div class="bg-amber-50 p-6 rounded-xl border-2 border-amber-200">
+                                <div class="flex items-center gap-4 mb-6">
+                                    <img src="https://images.unsplash.com/photo-1560439514-4e9645039924?w=200&h=200&fit=crop" class="w-20 h-20 object-cover rounded-lg" alt="IEEE">
+                                    <div>
+                                        <h4 class="text-xl font-bold text-slate-900 editable" contenteditable="true">IEEE Senior Member</h4>
+                                        <p class="
